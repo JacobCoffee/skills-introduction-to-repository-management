@@ -89,7 +89,7 @@ jobs:
     name: Finish Exercise
     uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@57ecd963a3e54e6b01a30ebab57d5202a7afca3f
     with:
-      issue-url: ${{ needs.find_exercise.outputs.issue-url }}
+      issue-url: "https://github.com/JacobCoffee/skills-introduction-to-repository-management/issues/1"
       update-readme-with-congratulations: true
 
   disable_workflow:
